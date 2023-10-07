@@ -3,7 +3,7 @@ import AuthContext from "./context/auth-context";
 
 function Auth() {
   const { status, login } = useContext(AuthContext);
-  //   const auth = useContext(AuthContext);
+
   console.log(status);
   return (
     <div>
